@@ -10,12 +10,17 @@ let package = Package(
         .library(
             name: "AdMovie_O",
             targets: ["AdMovie_O"]),
+        
+        .library(name: "AdMovie_OFrameWork",
+                 targets: ["AdMovie_OFrameWork"])
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "AdMovie_O"),
+            name: "AdMovie_O", dependencies: ["AdMovie_OFrameWork"]),
+        .binaryTarget(name: "AdMovie_OFrameWork",
+                      path: "FrameWork/AdMovie_O.xcframework"),
         .testTarget(
             name: "AdMovie_OTests",
             dependencies: ["AdMovie_O"]),
