@@ -1,0 +1,992 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdMovieViewDelegate",
+        "printedName": "AdMovieViewDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "adMovieViewSuccess",
+            "printedName": "adMovieViewSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HHSong_AdMovie@objc(pl)AdMovieViewDelegate(im)adMovieViewSuccess",
+            "mangledName": "$s14HHSong_AdMovie0bC12ViewDelegateP02adcD7SuccessyyF",
+            "moduleName": "HHSong_AdMovie",
+            "genericSig": "<τ_0_0 where τ_0_0 : HHSong_AdMovie.AdMovieViewDelegate>",
+            "sugared_genericSig": "<Self where Self : HHSong_AdMovie.AdMovieViewDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adMovieViewFail",
+            "printedName": "adMovieViewFail(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "HHSong_AdMovie.NetworkError",
+                "usr": "c:@M@HHSong_AdMovie@E@NetworkError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HHSong_AdMovie@objc(pl)AdMovieViewDelegate(im)adMovieViewFailWithError:",
+            "mangledName": "$s14HHSong_AdMovie0bC12ViewDelegateP02adcD4Fail5erroryAA12NetworkErrorO_tF",
+            "moduleName": "HHSong_AdMovie",
+            "genericSig": "<τ_0_0 where τ_0_0 : HHSong_AdMovie.AdMovieViewDelegate>",
+            "sugared_genericSig": "<Self where Self : HHSong_AdMovie.AdMovieViewDelegate>",
+            "protocolReq": true,
+            "objc_name": "adMovieViewFailWithError:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@HHSong_AdMovie@objc(pl)AdMovieViewDelegate",
+        "mangledName": "$s14HHSong_AdMovie0bC12ViewDelegateP",
+        "moduleName": "HHSong_AdMovie",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdMovieView",
+        "printedName": "AdMovieView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HHSong_AdMovie.AdMovieViewDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdMovieViewDelegate",
+                    "printedName": "HHSong_AdMovie.AdMovieViewDelegate",
+                    "usr": "c:@M@HHSong_AdMovie@objc(pl)AdMovieViewDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvp",
+            "mangledName": "$s14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvp",
+            "moduleName": "HHSong_AdMovie",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HHSong_AdMovie.AdMovieViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdMovieViewDelegate",
+                        "printedName": "HHSong_AdMovie.AdMovieViewDelegate",
+                        "usr": "c:@M@HHSong_AdMovie@objc(pl)AdMovieViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvg",
+                "mangledName": "$s14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvg",
+                "moduleName": "HHSong_AdMovie",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HHSong_AdMovie.AdMovieViewDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdMovieViewDelegate",
+                        "printedName": "HHSong_AdMovie.AdMovieViewDelegate",
+                        "usr": "c:@M@HHSong_AdMovie@objc(pl)AdMovieViewDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvs",
+                "mangledName": "$s14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvs",
+                "moduleName": "HHSong_AdMovie",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvM",
+                "mangledName": "$s14HHSong_AdMovie0bC4ViewC8delegateAA0bcD8Delegate_pSgvM",
+                "moduleName": "HHSong_AdMovie",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdMovieView",
+                "printedName": "HHSong_AdMovie.AdMovieView",
+                "usr": "c:@M@HHSong_AdMovie@objc(cs)AdMovieView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14HHSong_AdMovie0bC4ViewC5tokenACSS_tcfc",
+            "mangledName": "$s14HHSong_AdMovie0bC4ViewC5tokenACSS_tcfc",
+            "moduleName": "HHSong_AdMovie",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14HHSong_AdMovie0bC4ViewC4loadyyF",
+            "mangledName": "$s14HHSong_AdMovie0bC4ViewC4loadyyF",
+            "moduleName": "HHSong_AdMovie",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdMovieView",
+                "printedName": "HHSong_AdMovie.AdMovieView",
+                "usr": "c:@M@HHSong_AdMovie@objc(cs)AdMovieView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HHSong_AdMovie@objc(cs)AdMovieView(im)initWithFrame:",
+            "mangledName": "$s14HHSong_AdMovie0bC4ViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HHSong_AdMovie",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HHSong_AdMovie@objc(cs)AdMovieView",
+        "mangledName": "$s14HHSong_AdMovie0bC4ViewC",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HHSong_AdMovie.NetworkError.Type) -> HHSong_AdMovie.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "HHSong_AdMovie.NetworkError",
+                    "usr": "c:@M@HHSong_AdMovie@E@NetworkError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HHSong_AdMovie.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "HHSong_AdMovie.NetworkError",
+                        "usr": "c:@M@HHSong_AdMovie@E@NetworkError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@HHSong_AdMovie@E@NetworkError@NetworkErrorError",
+            "mangledName": "$s14HHSong_AdMovie12NetworkErrorO5erroryA2CmF",
+            "moduleName": "HHSong_AdMovie",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HHSong_AdMovie.NetworkError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "HHSong_AdMovie.NetworkError",
+                    "usr": "c:@M@HHSong_AdMovie@E@NetworkError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14HHSong_AdMovie12NetworkErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s14HHSong_AdMovie12NetworkErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "HHSong_AdMovie",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14HHSong_AdMovie12NetworkErrorO8rawValueSivp",
+            "mangledName": "$s14HHSong_AdMovie12NetworkErrorO8rawValueSivp",
+            "moduleName": "HHSong_AdMovie",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14HHSong_AdMovie12NetworkErrorO8rawValueSivg",
+                "mangledName": "$s14HHSong_AdMovie12NetworkErrorO8rawValueSivg",
+                "moduleName": "HHSong_AdMovie",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_nsErrorDomain",
+            "printedName": "_nsErrorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14HHSong_AdMovie12NetworkErrorO03_nsE6DomainSSvpZ",
+            "mangledName": "$s14HHSong_AdMovie12NetworkErrorO03_nsE6DomainSSvpZ",
+            "moduleName": "HHSong_AdMovie",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14HHSong_AdMovie12NetworkErrorO03_nsE6DomainSSvgZ",
+                "mangledName": "$s14HHSong_AdMovie12NetworkErrorO03_nsE6DomainSSvgZ",
+                "moduleName": "HHSong_AdMovie",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@HHSong_AdMovie@E@NetworkError",
+        "mangledName": "$s14HHSong_AdMovie12NetworkErrorO",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_BridgedNSError",
+            "printedName": "_BridgedNSError",
+            "usr": "s:10Foundation15_BridgedNSErrorP",
+            "mangledName": "$s10Foundation15_BridgedNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeableError",
+            "printedName": "_ObjectiveCBridgeableError",
+            "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
+            "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HHSong_AdMovie",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 360,
+      "length": 13,
+      "value": "\"total_pages\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 15,
+      "value": "\"total_results\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 360,
+      "length": 13,
+      "value": "\"total_pages\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 15,
+      "value": "\"total_results\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 15,
+      "value": "\"backdrop_path\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 11,
+      "value": "\"genre_ids\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 19,
+      "value": "\"original_language\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 16,
+      "value": "\"original_title\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 13,
+      "value": "\"poster_path\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 14,
+      "value": "\"release_date\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1284,
+      "length": 14,
+      "value": "\"vote_average\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 12,
+      "value": "\"vote_count\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 15,
+      "value": "\"backdrop_path\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 989,
+      "length": 11,
+      "value": "\"genre_ids\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 19,
+      "value": "\"original_language\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1098,
+      "length": 16,
+      "value": "\"original_title\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 13,
+      "value": "\"poster_path\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 14,
+      "value": "\"release_date\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1284,
+      "length": 14,
+      "value": "\"vote_average\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1324,
+      "length": 12,
+      "value": "\"vote_count\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 4,
+      "value": "\"ru\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/Model\/MovieList.swift",
+      "kind": "StringLiteral",
+      "offset": 1419,
+      "length": 4,
+      "value": "\"ru\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/API\/TargetType.swift",
+      "kind": "Array",
+      "offset": 688,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 971,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1139,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1226,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1740,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "StringLiteral",
+      "offset": 1861,
+      "length": 47,
+      "value": "\"https:\/\/image.tmdb.org\/t\/p\/w342\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "StringLiteral",
+      "offset": 1907,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/AdMovieView.swift",
+      "kind": "StringLiteral",
+      "offset": 285,
+      "length": 11,
+      "value": "\"HHSong_AdMovie.AdMovieView\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/API\/APSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1357,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/MovieRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 335,
+      "length": 30,
+      "value": "\"https:\/\/api.themoviedb.org\/3\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/MovieRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 42,
+      "value": "\"\/movie\/now_playing?language=ko-KR&page=1\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/MovieRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/MovieRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 17,
+      "value": "\"Bearer \""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/MovieRouter.swift",
+      "kind": "StringLiteral",
+      "offset": 855,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/songhwangho\/Desktop\/HHSong_AdMovie\/HHSong_AdMovie\/Sources\/MovieRouter.swift",
+      "kind": "Dictionary",
+      "offset": 954,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

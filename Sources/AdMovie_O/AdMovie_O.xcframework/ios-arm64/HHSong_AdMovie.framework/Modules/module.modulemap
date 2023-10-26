@@ -1,0 +1,11 @@
+framework module HHSong_AdMovie {
+  umbrella header "HHSong_AdMovie.h"
+
+  export *
+  module * { export * }
+}
+
+module HHSong_AdMovie.Swift {
+  header "HHSong_AdMovie-Swift.h"
+  requires objc
+}

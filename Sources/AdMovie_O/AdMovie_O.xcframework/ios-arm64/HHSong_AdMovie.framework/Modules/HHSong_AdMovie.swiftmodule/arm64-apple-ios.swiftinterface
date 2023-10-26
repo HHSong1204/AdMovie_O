@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HHSong_AdMovie
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import HHSong_AdMovie
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc public protocol AdMovieViewDelegate {
+  @objc optional func adMovieViewSuccess()
+  @objc optional func adMovieViewFail(error: HHSong_AdMovie.NetworkError)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class AdMovieView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) final public var delegate: (any HHSong_AdMovie.AdMovieViewDelegate)?
+  @_Concurrency.MainActor(unsafe) public init(token: Swift.String)
+  @_Concurrency.MainActor(unsafe) final public func load()
+  @objc deinit
+}
+@objc public enum NetworkError : Swift.Int, Swift.Error {
+  case error
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension HHSong_AdMovie.NetworkError : Swift.Equatable {}
+extension HHSong_AdMovie.NetworkError : Swift.Hashable {}
+extension HHSong_AdMovie.NetworkError : Swift.RawRepresentable {}
